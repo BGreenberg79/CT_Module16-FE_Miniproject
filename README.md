@@ -1,10 +1,12 @@
-# Advanced E-Commerce API App completed with React \(Fakestore API integration\)
+# Advanced E-Commerce API App completed with React \(Fakestore API integration\) Updated for CI-CD  
 ## Programmed by Benjamin Greenberg
 Mini Project for Coding Temple
 
 ___
 ## Project Overview
-This project works through advanced topics covered in Module 12 of Coding Temple's Frontend specialization. It includes English and Mandaring Chinese versions through use of the i18n framework. It also uses the useMemo and useCallback hooks to prevent unnecessary rerendeing. This project uses local and session storage to implement a log in component. It also uses redux to manage current shopping cart state between various pages and components. Lastly it begins to build off of Test Driven Development \(though admittedly some of those tests are a work in progress)\
+This project works through advanced topics covered in Module 12 of Coding Temple's Frontend specialization. It includes English and Mandaring Chinese versions through use of the i18n framework. It also uses the useMemo and useCallback hooks to prevent unnecessary rerendeing. This project uses local and session storage to implement a log in component. It also uses redux to manage current shopping cart state between various pages and components. Lastly it begins to build off of Test Driven Development.
+
+This project now adds a main.yml file to use Github actions to ensure all of our tests pass and then uses vercel to handle continuous deployment.
 
 ___
 ## Installation Instructions
