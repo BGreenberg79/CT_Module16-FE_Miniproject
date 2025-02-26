@@ -12,6 +12,8 @@ ___
 ## Installation Instructions
 My program can be cloned from its [github repository](https://github.com/BGreenberg79/CT_Module12-FE_MiniProject/) and then opened up using any web browser. These browser's may include Google Chrome, Miscrosoft Edge, Apple Safari, or Mozilla Firefox.
 
+The Loom explanation of my main.yml file can be found [here](https://www.loom.com/share/b7ffcd86139f47e4aec736984ece59e8?sid=7dc8adca-87ad-4153-b6de-32d686d96aa6)
+
 ___
 ## Special Thanks
 As always I'm grateful to the staff at Coding Temple for their continued development in my progression as a programmer and software developer. I'm especially grateful for the mentorship provided by my programming coaches Sarah Stodder and Katelyn Mehner.
