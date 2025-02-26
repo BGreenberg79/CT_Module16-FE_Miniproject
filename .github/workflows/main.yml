@@ -1,4 +1,4 @@
-name: React CI assignment 2
+name: Advanced E-Commerce API App
 
 on:
     push:
