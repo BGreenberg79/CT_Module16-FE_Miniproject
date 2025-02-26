@@ -1,0 +1,296 @@
+{
+    "createUser": {
+        "header": "New User",
+        "emailFormGroup": {
+            "label": "Email:",
+            "placeholder": "Your Email",
+            "recordLabel": "email address"
+        },
+        "usernameFormGroup": {
+            "label": "Username:",
+            "placeholder": "Your Username",
+            "recordLabel": "username"
+        },
+        "passwordFormGroup": {
+            "label": "Password:",
+            "placeholder": "Your Password",
+            "recordLabel": "password"
+        },
+        "firstNameFormGroup": {
+            "label": "First Name",
+            "placeholder": "Your First Name",
+            "recordLabel" :"first name"
+        },
+        "lastNameFormGroup": {
+            "label": "Last Name",
+            "placeholder": "Your Last Name",
+            "recordLabel":"last name"
+        },
+        "addressHeader":"Address",
+        "cityFormGroup":{
+            "label":"City:",
+            "placeholder":"Your City",
+            "recordLabel":"city"
+        },
+        "streetFormGroup":{
+            "label":"Street:",
+            "placeholder":"Your Street Address",
+            "recordLabel":"street name"
+        },
+        "numberFormGroup":{
+            "label":"Number:",
+            "placeholder": "Your Building Number",
+            "recordLabel": "building number"
+        },
+        "zipCodeFormGroup": {
+            "label": "Zip Code:",
+            "placeholder": "Your Zip Code",
+            "recordLabel": "zip code"
+        },
+        "latitudeFormGroup": {
+            "label": "Latitude:",
+            "placeholder": "Your Latitude",
+            "recordLabel": "latitude"
+        },
+        "longitudeFormGroup":{
+            "label":"Longitude:",
+            "placeholder":"Your Longitude",
+            "recordLabel":"longitude"
+        },
+        "phoneNumberFormGroup":{
+            "label":"Phone Number:",
+            "placeholder":"Your Phone Number",
+            "recordLabel": "phone number"
+        },
+        "submitButton":{
+            "recordLabel":"create new user account",
+            "buttonText":"Create User"
+        }
+    },
+    "productCatalog": {
+        "header": "Product Catalog",
+        "dropdownSortPrice":{
+            "recordLabel": "sort by price",
+            "toggleText": "Sort By Price",
+            "ascItem":{
+                "recordLabel": "sort ascending",
+                "itemText": "Ascending"
+            },
+            "descItem":{
+                "recordLabel": "sort descending",
+                "itemText": "Descending"
+            }
+        },
+        "dropdownSelectCategory": {
+            "recordLabel": "select product category",
+            "toggleText": "Select Category",
+            "categoryItem":{
+                "recordLabel": "filter by {{category}} category",
+                "itemText": "{{category}}"
+            }
+        },
+        "itemSearchFormGroup":{
+            "label":"Search By Item",
+            "recordLabel": "search by item name",
+            "placeholder": "Search by item name"
+        },
+        "priceSearchFormGroup":{
+            "label":"Price Search",
+            "recordLabel":"search by item price",
+            "placeholder":"Enter price"
+        },
+        "dropdownPriceFilter":{
+            "recordLabel": "filter by price maximum or minimum",
+            "toggleTextMax": "Maximum Price",
+            "toggleTextMin": "Minimum Price",
+            "maxItem":{
+                "recordLabel":"filter by maximum price",
+                "itemText":"Maximum Price"
+            },
+            "minItem":{
+                "recordLabel":"filter by minimum price",
+                "itemText":"Minimum Price"
+            }
+        },
+        "listGroupProducts": {
+            "image": {
+                "alt": "image of {{productTitle}}",
+                "recordLabel": "image of {{productTitle}}"
+            },
+            "title": "{{productTitle}}",
+            "category": "Category: {{productCategory}}",
+            "price": "Price: ${{productPrice}}",
+            "description": "Description: {{productDescription}}",
+            "addButton":{
+                "recordLabel": "Add {{productTitle}} to cart",
+                "buttonText" : "Add To Cart"
+            }
+        }
+
+    },
+    "shoppingCart": {
+        "header":"Shopping Cart",
+        "emptyCart":"Your cart is empty",
+        "cartListGroup":{
+            "image":{
+                "alt":"image of {{productTitle}}"
+            },
+            "title": "{{productTitle}}",
+            "price": "Price: ${{productPrice}}",
+            "description": "Description: {{productDescription}}",
+            "quantity": "Quantity: {{productQuantity}}"
+        },
+        "addButton": {
+            "recordLabel": "Add additional {{productTitle}} to cart",
+            "buttonText": "Add Additional"
+        },
+        "removeButton": {
+            "recordLabel": "Remove {{productTitle}} from cart",
+            "buttonText":"Remove"
+        },
+        "totalItems": "Total Number of Items in Cart:",
+        "totalPrice": "Total Price: $",
+        "clearButton":{
+            "recordLabel": "clear all items in cart",
+            "buttonText": "Clear Cart"
+        },
+        "checkoutButton": {
+            "recordLabel": "initiate checkout",
+            "buttonText": "Checkout"
+        },
+        "completionModal":{
+            "recordLabel":"checkout completed",
+            "modalTitle":"Checkout Completed",
+            "modalBody": "You have successfully checked out!",
+            "closeButton": "Close"
+        },
+        "orderHistoryHeader": "Order History",
+        "historyListGroup":{
+            "orderId": "Order ID: {{orderId}}",
+            "dateCreated": "Date Created:",
+            "totalPrice": "Total Price: ${{orderTotalPrice}}",
+            "detailsButton": {
+                "recordLabel": "view details for order {{orderId}}",
+                "buttonText":"Show Product Details"
+            }
+        },
+        "detailsModal":{
+            "recordLabel":"order details",
+            "modalTitle":"Order Details",
+            "orderId": "Order ID: {{selectedOrderId}}",
+            "date": "Date:",
+            "totalPrice": "Total Price: ${{selectedOrderTotalPrice}}",
+            "productHeader":"Products in this Order:",
+            "productList":{
+                "productId": "Product ID: {{productProductId}}",
+                "quantity": "Quantity: {{productQuantity}}"
+            },
+            "closeButton":"Close"
+        }
+    },
+    "updateUser": {
+        "header": "Update User",
+        "emailFormGroup": {
+            "label": "Email:",
+            "placeholder": "Your Email",
+            "recordLabel": "email address"
+        },
+        "usernameFormGroup": {
+            "label": "Username:",
+            "placeholder": "Your Username",
+            "recordLabel": "username"
+        },
+        "passwordFormGroup": {
+            "label": "Password:",
+            "placeholder": "Your Password",
+            "recordLabel": "password"
+        },
+        "firstNameFormGroup": {
+            "label": "First Name",
+            "placeholder": "Your First Name",
+            "recordLabel" :"first name"
+        },
+        "lastNameFormGroup": {
+            "label": "Last Name",
+            "placeholder": "Your Last Name",
+            "recordLabel":"last name"
+        },
+        "addressHeader":"Address",
+        "cityFormGroup":{
+            "label":"City:",
+            "placeholder":"Your City",
+            "recordLabel":"city"
+        },
+        "streetFormGroup":{
+            "label":"Street:",
+            "placeholder":"Your Street Address",
+            "recordLabel":"street name"
+        },
+        "numberFormGroup":{
+            "label":"Number:",
+            "placeholder": "Your Building Number",
+            "recordLabel": "building number"
+        },
+        "zipCodeFormGroup": {
+            "label": "Zip Code:",
+            "placeholder": "Your Zip Code",
+            "recordLabel": "zip code"
+        },
+        "latitudeFormGroup": {
+            "label": "Latitude:",
+            "placeholder": "Your Latitude",
+            "recordLabel": "latitude"
+        },
+        "longitudeFormGroup":{
+            "label":"Longitude:",
+            "placeholder":"Your Longitude",
+            "recordLabel":"longitude"
+        },
+        "phoneNumberFormGroup":{
+            "label":"Phone Number:",
+            "placeholder":"Your Phone Number",
+            "recordLabel": "phone number"
+        },
+        "submitButton":{
+            "recordLabel":"update user account",
+            "buttonText":"Edit User Account"
+        }
+    },
+    "userList": {
+        "header": "User List",
+        "listGroupUser": {
+            "recordLabel": "Username: {{userUsername}}",
+            "name" : "Name: {{userNameFirstname}} {{userNameLastname}}",
+            "username": "Username: {{userUsername}}",
+            "password": "Password: {{userPassword}}",
+            "email": "Email: {{userEmail}}",
+            "phone": "Phone: {{userPhone}}"
+        },
+        "deleteButton":{
+            "recordLabel":"Delete user with username: {{userUsername}}",
+            "buttonText": "Delete"
+        },
+        "editButton":{
+            "recordLabel": "Edit user with username: {{userUsername}}",
+            "buttonText": "Edit"
+        }
+    },
+    "userLogin": {
+        "header": "Log In",
+        "emailFormGroup": {
+            "label": "Email:",
+            "placeholder": "Your Email",
+            "recordLabel": "email address to log in"
+        },
+        "passwordFormGroup": {
+            "label": "Password:",
+            "placeholder": "Your Password",
+            "recordLabel": "password to log in"
+        },
+        "loginButton":{
+            "recordLabel": "submit log in",
+            "buttonText": "Submit Log In"
+        }
+
+    }
+}

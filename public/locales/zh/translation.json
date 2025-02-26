@@ -1,0 +1,296 @@
+{
+    "createUser": {
+        "header": "新用户",
+        "emailFormGroup": {
+            "label": "电子邮件:",
+            "placeholder": "您的電子郵件",
+            "recordLabel": "电子邮件"
+        },
+        "usernameFormGroup": {
+            "label": "用户名:",
+            "placeholder": "您的用户名",
+            "recordLabel": "用户名"
+        },
+        "passwordFormGroup": {
+            "label": "密码:",
+            "placeholder": "您的密码",
+            "recordLabel": "密码"
+        },
+        "firstNameFormGroup": {
+            "label": "名:",
+            "placeholder": "您的名字",
+            "recordLabel" :"名"
+        },
+        "lastNameFormGroup": {
+            "label": "姓:",
+            "placeholder": "你的姓氏",
+            "recordLabel":"姓"
+        },
+        "addressHeader":"地址",
+        "cityFormGroup":{
+            "label":"城市:",
+            "placeholder":"你的城市",
+            "recordLabel":"城市"
+        },
+        "streetFormGroup":{
+            "label":"街道:",
+            "placeholder":"您的街道地址",
+            "recordLabel":"街道名称"
+        },
+        "numberFormGroup":{
+            "label":"数字：",
+            "placeholder": "您的门牌号码",
+            "recordLabel": "楼宇号码"
+        },
+        "zipCodeFormGroup": {
+            "label": "邮政编码:",
+            "placeholder": "你的邮政编码",
+            "recordLabel": "邮政编码"
+        },
+        "latitudeFormGroup": {
+            "label": "纬度:",
+            "placeholder": "你的纬度",
+            "recordLabel": "纬度"
+        },
+        "longitudeFormGroup":{
+            "label":"经度:",
+            "placeholder":"你的经度",
+            "recordLabel":"经度"
+        },
+        "phoneNumberFormGroup":{
+            "label":"电话号码:",
+            "placeholder":"您的电话号码",
+            "recordLabel": "电话号码"
+        },
+        "submitButton":{
+            "recordLabel":"创建新用户帐户",
+            "buttonText":"创建新用户帐户"
+        }
+    },
+    "productCatalog": {
+        "header": "产品目录",
+        "dropdownSortPrice":{
+            "recordLabel": "按价格排序",
+            "toggleText": "按价格排序",
+            "ascItem":{
+                "recordLabel": "升序排序",
+                "itemText": "升序"
+            },
+            "descItem":{
+                "recordLabel": "降序排列",
+                "itemText": "降序"
+            }
+        },
+        "dropdownSelectCategory": {
+            "recordLabel": "选择产品类别",
+            "toggleText": "选择类别",
+            "categoryItem":{
+                "recordLabel": "按 {{category}} 类别过滤",
+                "itemText": "{{category}}"
+            }
+        },
+        "itemSearchFormGroup":{
+            "label":"按商品搜索",
+            "recordLabel": "按商品名称搜索",
+            "placeholder": "按商品名称搜索"
+        },
+        "priceSearchFormGroup":{
+            "label":"价格搜索",
+            "recordLabel":"按商品价格搜索",
+            "placeholder":"输入价格"
+        },
+        "dropdownPriceFilter":{
+            "recordLabel": "按价格最高值或最低值过滤",
+            "toggleTextMax": "最高价格",
+            "toggleTextMin": "最低价格",
+            "maxItem":{
+                "recordLabel":"按最高价格过滤",
+                "itemText":"最高价格"
+            },
+            "minItem":{
+                "recordLabel":"按最低价格过滤",
+                "itemText":"最低价格"
+            }
+        },
+        "listGroupProducts": {
+            "image": {
+                "alt": "图像 {{productTitle}}",
+                "recordLabel": "图像 {{productTitle}}"
+            },
+            "title": "{{productTitle}}",
+            "category": "类别: {{productCategory}}",
+            "price": "价格: ${{productPrice}}",
+            "description": "描述: {{productDescription}}",
+            "addButton":{
+                "recordLabel": "将 {{productTitle}} 添加至购物车",
+                "buttonText" : "添加到购物车"
+            }
+        }
+
+    },
+    "shoppingCart": {
+        "header":"购物车",
+        "emptyCart":"您的购物车是空的",
+        "cartListGroup":{
+            "image":{
+                "alt":"{{productTitle}} 的图片"
+            },
+            "title": "{{productTitle}}",
+            "price": "价格：${{productPrice}}",
+            "description": "描述：{{productDescription}}",
+            "quantity": "数量：{{productQuantity}}"
+        },
+        "addButton": {
+            "recordLabel": "将额外的 {{productTitle}} 添加至购物车",
+            "buttonText": "添加其他"
+        },
+        "removeButton": {
+            "recordLabel": "从购物车中移除 {{productTitle}}",
+            "buttonText":"消除"
+        },
+        "totalItems": "购物车中的商品总数:",
+        "totalPrice": "总价：$",
+        "clearButton":{
+            "recordLabel": "清除购物车中的所有商品",
+            "buttonText": "清空购物车"
+        },
+        "checkoutButton": {
+            "recordLabel": "开始结帐",
+            "buttonText": "查看"
+        },
+        "completionModal":{
+            "recordLabel":"结帐已完成",
+            "modalTitle":"结帐已完成",
+            "modalBody": "您已成功退房！",
+            "closeButton": "关闭"
+        },
+        "orderHistoryHeader": "订单历史记录",
+        "historyListGroup":{
+            "orderId": "订单 ID: {{orderId}}",
+            "dateCreated": "创建日期:",
+            "totalPrice": "总价：${{orderTotalPrice}}",
+            "detailsButton": {
+                "recordLabel": "查看订单 {{orderId}} 的详细信息",
+                "buttonText":"显示产品详细信息"
+            }
+        },
+        "detailsModal":{
+            "recordLabel":"订单详情",
+            "modalTitle":"订单详情",
+            "orderId": "订单编号：{{selectedOrderId}}",
+            "date": "日期:",
+            "totalPrice": "总价：${{selectedOrderTotalPrice}}",
+            "productHeader":"按此顺序排列的产品:",
+            "productList":{
+                "productId": "产品编号：{{productProductId}}",
+                "quantity": "数量：{{productQuantity}}"
+            },
+            "closeButton":"关闭"
+        }
+    },
+    "updateUser": {
+        "header": "更新用户",
+        "emailFormGroup": {
+            "label": "电子邮件:",
+            "placeholder": "您的电子邮件地址",
+            "recordLabel": "电子邮件"
+        },
+        "usernameFormGroup": {
+            "label": "用户名:",
+            "placeholder": "您的用户名",
+            "recordLabel": "用户名"
+        },
+        "passwordFormGroup": {
+            "label": "密码:",
+            "placeholder": "您的密码",
+            "recordLabel": "密码"
+        },
+        "firstNameFormGroup": {
+            "label": "名",
+            "placeholder": "您的名字",
+            "recordLabel" :"名"
+        },
+        "lastNameFormGroup": {
+            "label": "姓",
+            "placeholder": "你的姓氏",
+            "recordLabel":"姓"
+        },
+        "addressHeader":"地址",
+        "cityFormGroup":{
+            "label":"城市:",
+            "placeholder":"你的城市",
+            "recordLabel":"城市"
+        },
+        "streetFormGroup":{
+            "label":"街道:",
+            "placeholder":"你的街道地址",
+            "recordLabel":"街道名称"
+        },
+        "numberFormGroup":{
+            "label":"数字:",
+            "placeholder": "您的门牌号码",
+            "recordLabel": "楼宇号码"
+        },
+        "zipCodeFormGroup": {
+            "label": "邮政编码:",
+            "placeholder": "你的邮政编码",
+            "recordLabel": "邮政编码"
+        },
+        "latitudeFormGroup": {
+            "label": "纬度:",
+            "placeholder": "你的纬度",
+            "recordLabel": "纬度"
+        },
+        "longitudeFormGroup":{
+            "label":"经度:",
+            "placeholder":"你的经度",
+            "recordLabel":"经度"
+        },
+        "phoneNumberFormGroup":{
+            "label":"电话号码:",
+            "placeholder":"你的电话号码",
+            "recordLabel": "电话号码"
+        },
+        "submitButton":{
+            "recordLabel":"更新用户帐户",
+            "buttonText":"编辑用户帐户"
+        }
+    },
+    "userList": {
+        "header": "用户列表",
+        "listGroupUser": {
+            "recordLabel": "用户名：{{userUsername}}",
+            "name" : "姓名：{{userNameFirstname}} {{userNameLastname}}",
+            "username": "用户名：{{userUsername}}",
+            "password": "密码：{{userPassword}}",
+            "email": "電子郵件：{{userEmail}}",
+            "phone": "电话：{{userPhone}}"
+        },
+        "deleteButton":{
+            "recordLabel":"删除用户名为：{{userUsername}} 的用户",
+            "buttonText": "删除"
+        },
+        "editButton":{
+            "recordLabel": "编辑用户名：{{userUsername}}",
+            "buttonText": "编辑"
+        }
+    },
+    "userLogin": {
+        "header": "登录",
+        "emailFormGroup": {
+            "label": "电子邮件:",
+            "placeholder": "您的電子郵件",
+            "recordLabel": "登录电子邮件地址"
+        },
+        "passwordFormGroup": {
+            "label": "密码:",
+            "placeholder": "您的密码",
+            "recordLabel": "登录密码"
+        },
+        "loginButton":{
+            "recordLabel": "提交登录",
+            "buttonText": "提交登录"
+        }
+
+    }
+}
