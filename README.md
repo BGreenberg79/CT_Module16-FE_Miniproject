@@ -20,8 +20,8 @@ As always I'm grateful to the staff at Coding Temple for their continued develop
 
 __
 ## Images
-![Users List Page](advanced-ecommerce-mini-project\mini-project_16_screenshot.png)
+![Users List Page](mini-project_16_screenshot.png)
 
-![Product Catalog in Mandarin](advanced-ecommerce-mini-project\mini-project_16_screenshot_2.png)
+![Product Catalog in Mandarin](mini-project_16_screenshot_2.png)
 
-![Edit User Link navigation](advanced-ecommerce-mini-project\mini-project_16_screenshot_3.png)
+![Edit User Link navigation](mini-project_16_screenshot_3.png)
